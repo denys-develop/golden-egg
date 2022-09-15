@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Kurale&family=Open+Sans:wght@400;700&display=swap");
+body {
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Kurale", serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.hide {
+  display: none;
+}
+
+/*# sourceMappingURL=main.css.map */
