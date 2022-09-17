@@ -42,16 +42,8 @@
         margin-bottom: 30px;
     }
 
-    .header-content__line {
-        display: block;
-        margin: 0 auto;
-        width: 60px;
-        height: 5px;
-        background-color: $yellow;
-        margin-bottom: 30px;
-    }
-
     .header-content__buttons {
+        margin-top: 30px;
         display: flex;
         column-gap: 40px;
     }
@@ -74,6 +66,9 @@
 .header-content__down-btn {
     margin: 82px auto 0;
     display: block;
+
+    display: flex;
+    justify-content: center;
 
     transition: opacity .2s ease-out, transform .1s ease-out;
 

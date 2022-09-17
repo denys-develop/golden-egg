@@ -1,0 +1,61 @@
+.about {
+    padding: 97px 0 104px;
+
+    &__row {
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+        justify-content: space-between;
+    }
+
+    &__text {
+        max-width: 600px;
+    }
+
+    &__heding {
+        margin-bottom: 14px;
+    }
+    
+    &__line {
+        margin-bottom: 38px;
+    }
+
+    &__desc {
+        text-align: center;
+    }
+    
+    &__desc-bold {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.56;
+        color: $black;
+        margin-bottom: 26px;
+    }
+
+    &__desc-regular {
+        width: 543px;
+        margin: 0 auto;
+    
+        p {
+            line-height: 1.75;
+        }
+    
+        p + p {
+            margin-top: 26px;
+        }
+    }
+
+    .about__img {
+        width: 475px;
+        height: 475px;
+    
+        position: relative;
+    
+        .about__circle {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: -100px;
+        }
+    }
+}
