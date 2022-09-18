@@ -1,0 +1,35 @@
+.team {
+    padding: 45px 0 126px;
+    color: $white;
+    background: url(/img/team/team-bg.jpg) center / cover;
+    background-repeat: no-repeat;
+
+
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.5em;
+        text-transform: uppercase;
+        margin-bottom: 45px;
+    }
+
+    .template__heding h2 {
+        color: $white;
+    }
+
+    .template__desc-top {
+        margin-bottom: 60px;
+        max-width: 595px;
+    }
+
+    .template__desc-bottom {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .template__circle {
+        left: -125px;
+    }
+}
