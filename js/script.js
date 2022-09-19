@@ -53,3 +53,12 @@ document.querySelectorAll('.dropdown').forEach(function (dropDownWrapper) {
     });
 });
 
+
+// Slider special-offers 
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    items: 1,
+    margin: 250,
+    stagePadding: 125
+});
+
