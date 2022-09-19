@@ -1,0 +1,80 @@
+.dropdown {
+    position: relative;
+}
+
+.dropdown__button {
+    position: relative;
+    display: block;
+    width: 277px;
+    height: 60px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    padding: 20px 20px;
+    line-height: 1.5;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.dropdown__button:focus, .dropdown__button--active  {
+    box-shadow: 0px 0px 10px #6a6868;
+}
+
+.dropdown__button::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 15px;
+    height: 10px;
+    background: url(/img/order/arrow-down.svg) no-repeat;
+    // Делает элемет прозрачным (снимаем клик с фигурки)
+    pointer-events: none;
+}
+
+.dropdown__list {
+    display: none;
+
+    position: absolute;
+    left: 0;
+    top: 62px;
+    z-index: 1;
+
+    background: #E5E5E5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #6a6868;
+
+    cursor: pointer;
+}
+
+.dropdown__list--visible {
+    display: block;
+}
+
+.dropdown__list-item {
+    width: 277px;
+    border: 1px solid rgba(106, 104, 104, 0.5);
+    border-bottom: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.dropdown__list-item:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.dropdown__list-item:last-child {
+    border-radius: 0 0 5px 5px;
+    border-bottom: 1px solid rgba(106, 104, 104, 0.5);
+}
+
+.dropdown__list-item:hover {
+    background: rgba(149, 148, 148, 0.5);;
+}
+
+.dropdown__input-hidden {
+    display: none;
+    border: 1px solid #6a6868
+}

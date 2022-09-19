@@ -16,7 +16,7 @@
                     <ul class="header-nav__menu">
                         <li><a class="header-nav__menu-link" href="#about">О РЕСТОРАНЕ</a></li>
                         <li><a class="header-nav__menu-link" href="#team">КОМАНДА</a></li>
-                        <li><a class="header-nav__menu-link" href="#!">ЗАКАЗАТЬ</a></li>
+                        <li><a class="header-nav__menu-link" href="#order">ЗАКАЗАТЬ</a></li>
                     </ul>
                     <div class="logo">
                         <img src="./img/logo/logo.png" alt="logo">
@@ -42,7 +42,7 @@
                         <h1 class="header-content__title">GOLDEN EGG</h1>
                         <div class="yellow-line"></div>
                         <div class="header-content__buttons">
-                            <a href="#!" class="button">ЗАКАЗАТЬ СТОЛИК</a>
+                            <a href="#order" class="button">ЗАКАЗАТЬ СТОЛИК</a>
                             <a href="#about" class="button button-transparent">О РЕСТОРАНЕ</a>
                         </div>
                     </div>
@@ -136,6 +136,80 @@
                 </div>
             </div>
         </div>
+    </section> 
+    <section class="order" id="order">
+        <div class="container">
+            <div class="template__row">
+                <div class="template__text">
+                    <div class="template__heding">
+                        <h2 class="title">О РЕСТОРАНЕ</h2>
+                    </div>
+                    <div class="template__line">
+                        <div class="yellow-line"></div>
+                    </div>
+                    <form class="form-order">
+                        <div class="form-order__item">
+                            <input type="text" name="name" class="form-order__input" placeholder="Имя" required>
+                        </div>
+                        <div class="form-order__item">
+                            <input type="email" name="email" class="form-order__input" placeholder="Email" required>
+                        </div>
+                        <div class="form-order__item">
+                            <input type="tel" name="tel" class="form-order__input" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-order__item">
+                            <div class="dropdown">
+                                <button type="button" class="dropdown__button">Кол-во людей</button>
+                                <ul class="dropdown__list">
+                                    <li class="dropdown__list-item" data-value="2">2</li>
+                                    <li class="dropdown__list-item" data-value="3">3</li>
+                                    <li class="dropdown__list-item" data-value="4">4</li>
+                                    <li class="dropdown__list-item" data-value="5">5</li>
+                                    <li class="dropdown__list-item" data-value="6">6</li>
+                                </ul>
+                                <input type="text" name="select-category" value="" class="dropdown__input-hidden">
+                            </div>
+                        </div>
+                        
+                        <div class="form-order__item">
+                            <input type="date" name="date" class="form-order__input" placeholder="Дата (дата/месяц)" required>
+                        </div>
+
+                        <div class="form-order__item">
+                            <div class="dropdown">
+                                <button type="button" class="dropdown__button">Время</button>
+                                <ul class="dropdown__list">
+                                    <li class="dropdown__list-item" data-value="17.00">17.00</li>
+                                    <li class="dropdown__list-item" data-value="18.00">18.00</li>
+                                    <li class="dropdown__list-item" data-value="19.00">19.00</li>
+                                    <li class="dropdown__list-item" data-value="20.00">20.00</li>
+                                    <li class="dropdown__list-item" data-value="21.00">21.00</li>
+                                </ul>
+                                <input type="text" name="select-category" value="" class="dropdown__input-hidden">
+                            </div>
+                        </div>
+
+                        <button type="submit" class="button button__form-order">ОФОРМИТЬ ЗАКАЗ</button>
+                    </form>
+                </div>
+               
+                <div class="template__imege">
+                    <img src="img/order/order.jpg" alt="about-img">
+                    <div class="template__circle">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="order__contacts">
+                <p>Пн - Пт: 8 - 22, Сб - Вс: 9 - 23, Телефон: +38098 729 13 67 / +38097 458 78 79</p>
+            </div>
+        </div>
     </section>
+
+
+
+
+
+    <script src="js/script.js"></script>
 </body>
 </html>

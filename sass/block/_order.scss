@@ -1,0 +1,25 @@
+.order {
+    padding: 100px 0 50px;
+
+    .template__imege {
+        img {
+            filter: none;
+        }
+    }
+
+    .template__circle {
+        right: -125px;
+    }
+
+    &__contacts {
+        margin-top: 45px;
+        text-align: center;
+        
+        p {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 1;
+            color: rgba(51, 51, 51, 0.5);
+        }
+    }
+}

@@ -32,6 +32,14 @@
         }
     }
 
+    &__form-order {
+        width: 564px;
+
+        &:hover {
+            background-color: rgb(229, 164, 79);
+        }
+    }
+
     &:active {
         transform: translateY(1px);
     }
