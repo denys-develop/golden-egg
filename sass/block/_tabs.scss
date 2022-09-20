@@ -1,0 +1,111 @@
+.tab__menu {
+    max-width: 977px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    transition: all .3s ease-out;
+}
+
+.tab {
+    margin-bottom: 60px;
+}
+
+.tab__menu-item {
+    width: 164px;
+    padding: 20px 0;
+
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    border-top: none;
+    border-bottom: none;
+
+    transition: background-color .2s ease-out;
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333333;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: #E8C300;
+    }
+}
+
+.tab--active {
+    background-color: #E8C300;
+}
+
+.tab__menu-item:first-child {
+    border-left: none;
+}
+
+.tab__menu-item:last-child {
+    border-right: none;
+}
+
+.tab__menu-content {
+    padding: 0;
+}
+
+.menu__row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 65px;
+    row-gap: 55px;
+}
+
+.menu__row-item {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.menu__row-item-img {
+    width: 251px;
+    height: 167px;
+    border: 4px solid #E8C300;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.menu__row-item-info {
+    width: 221px;
+}
+
+.menu__row-item-heding {
+    margin-bottom: 21px;
+    font-family: $font2;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+    text-transform: uppercase;
+    color: #333333;
+    text-align: left;
+
+    p {
+        // border-bottom: 1px solid #333333;
+        text-decoration: underline;
+    }
+}
+
+.menu__row-item-desc {
+    p {
+        font-size: 12px;
+        line-height: 1.17;
+        color: rgba(51, 51, 51, 0.5);
+    }
+}
+
+// Owl Dots 
+.menu .owl-theme .owl-dots .owl-dot.active span, .menu .owl-theme .owl-theme .owl-dots .owl-dot:hover span {
+    margin-top: 40px;
+    background: $yellow;
+}

@@ -1,17 +1,11 @@
 .special-offers {
-    padding: 50px 0;
+    height: 675px;
+    padding: 50px 0 45px;
     color: $white;
 
-    background: url(/img/special-offers/special-offers-bg.jpg) center / cover;
+    background: url(../img/special-offers/special-offers-bg.jpg) center / cover;
     background-repeat: no-repeat;
 
-    &__slider {
-        width: 100%;
-
-        .slide {
-            width: 100%;
-        }
-    }
 
     &__title {
         margin-bottom: 50px;
@@ -45,4 +39,8 @@
 }
 
 
+.special-offers__slider .owl-theme .owl-dots .owl-dot.active span, .special-offers__slider .owl-theme .owl-dots .owl-dot:hover span {
+    background: $yellow;
+    margin-top: 20px;
+}
     

@@ -54,11 +54,50 @@ document.querySelectorAll('.dropdown').forEach(function (dropDownWrapper) {
 });
 
 
-// Slider special-offers 
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    items: 1,
-    margin: 250,
-    stagePadding: 125
+
+// Tabs menu
+const tabHeaders = document.querySelectorAll('[data-tab]');
+const contentBoxes = document.querySelectorAll('[data-tab-content]');
+
+tabHeaders.forEach(function(item) {
+    item.addEventListener('click', function() {
+
+        // 1.  Cкрыть все contentBox
+        contentBoxes.forEach(function (item) {
+            item.classList.add('hide');
+        })
+
+        // 2. Выбрать нужный contentBox и показать его 
+        const contentBox = document.querySelector('#' + this.dataset.tab);
+        contentBox.classList.remove('hide');
+
+    });
 });
 
+// Активный Tab
+$(function() {
+    $(".tab__menu").on("click", ".tab__menu-item", function(event) {
+    
+        $(".tab__menu-item", event.delegateTarget).removeClass("tab--active ")
+        
+        $(this).addClass("tab--active ")
+    
+    })
+});
+    
+
+// Sliders
+$(document).ready(function(){
+    $(".slide-one").owlCarousel({
+        loop:true,
+        items: 1,
+        margin: 250,
+        stagePadding: 125,
+        smartSpeed: 500
+    });
+  
+    $(".slide-two").owlCarousel({
+        loop:true,
+        items: 1
+    });
+});
