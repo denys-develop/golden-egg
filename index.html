@@ -62,1531 +62,1533 @@
             </div>
         </div>
     </header>
-    <section class="about" id="about">
-        <div class="container">
-            <div class="template__row">
-                <div class="template__text">
-                    <div class="template__heding">
-                        <h2 class="title">О РЕСТОРАНЕ</h2>
+    <main class="main">
+        <section class="about" id="about">
+            <div class="container">
+                <div class="template__row">
+                    <div class="template__text">
+                        <div class="template__heding">
+                            <h2 class="title">О РЕСТОРАНЕ</h2>
+                        </div>
+                        <div class="template__line">
+                            <div class="yellow-line"></div>
+                        </div>
+                        <div class="template__desc">
+                            <div class="template__desc-top">
+                                <p>
+                                    Волшебная атмосфера, безукоризненное обслуживание, изысканный интерьер и, 
+                                    самое главное, богатейший выбор вкуснейших блюд отменного 
+                                    качества – именно эти характеристики привлекают гостей в наш ресторан
+                                </p>
+                            </div>
+                            <div class="template__desc-bottom">
+                                <p>
+                                    Официанты этого заведения знают все тонкости приготовления блюд, 
+                                    они подскажут гостям наиболее подходящие для них яства. 
+                                    Тут хорошо знают постоянных клиентов, умело угождая их вкусам.
+                                </p>
+                                <p>
+                                    Идеально дополняет ресторан уютная кофейня, находящаяся на первом этаже. 
+                                    Чашечка изумительного кофе и сладости 
+                                    от местного кондитера зарядят вас бодростью и позитивной энергией.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="template__line">
+                    <div class="template__imege">
+                        <img src="img/about/about-img.jpg" alt="about-img">
+                        <div class="template__circle">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team" id="team">
+            <div class="container">
+                <div class="team__title">НАША КОМАНДА</div>
+                <div class="template__row">
+                    <div class="template__imege">
+                        <img src="img/team/chef.jpg" alt="about-img">
+                        <div class="template__circle">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                    <div class="template__text">
+                        <div class="template__heding">
+                            <h2 class="title"> ШЕФ-ПОВАР</h2>
+                        </div>
+                        <div class="template__line">
+                            <div class="yellow-line"></div>
+                        </div>
+                        <div class="template__desc">
+                            <div class="template__desc-top">
+                                <p>
+                                    За подбор продуктов и приготовление вкусных  блюд отвечает наш высококвалифицированный шеф-повар. 
+                                    Блюда в его исполнении превращаются в настоящие шедевры. 
+                                    Никто не останется равнодушным к такому непревзойденному сочетанию. 
+                                </p>
+                            </div>
+                            <div class="template__desc-bottom">
+                                <p>
+                                    Своей работой мы хотим радовать каждого нашего посетителя. Мы гарантируем всем клиентам, что время, 
+                                    проведенное в нашем заведении, будет отличаться особым теплом и изысканным вкусом.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="order" id="order">
+            <div class="container">
+                <div class="template__row">
+                    <div class="template__text">
+                        <div class="template__heding">
+                            <h2 class="title">О РЕСТОРАНЕ</h2>
+                        </div>
+                        <div class="template__line">
+                            <div class="yellow-line"></div>
+                        </div>
+                        <form class="form-order">
+                            <div class="form-order__item">
+                                <input type="text" name="name" class="form-order__input" placeholder="Имя" required>
+                            </div>
+                            <div class="form-order__item">
+                                <input type="email" name="email" class="form-order__input" placeholder="Email" required>
+                            </div>
+                            <div class="form-order__item">
+                                <input type="tel" name="tel" class="form-order__input" placeholder="Телефон" required>
+                            </div>
+                            <div class="form-order__item">
+                                <div class="dropdown">
+                                    <button type="button" class="dropdown__button">Кол-во людей</button>
+                                    <ul class="dropdown__list">
+                                        <li class="dropdown__list-item" data-value="2">2</li>
+                                        <li class="dropdown__list-item" data-value="3">3</li>
+                                        <li class="dropdown__list-item" data-value="4">4</li>
+                                        <li class="dropdown__list-item" data-value="5">5</li>
+                                        <li class="dropdown__list-item" data-value="6">6</li>
+                                    </ul>
+                                    <input type="text" name="select-category" value="" class="dropdown__input-hidden">
+                                </div>
+                            </div>
+                            
+                            <div class="form-order__item">
+                                <input type="date" name="date" class="form-order__input" placeholder="Дата (дата/месяц)" required>
+                            </div>
+
+                            <div class="form-order__item">
+                                <div class="dropdown">
+                                    <button type="button" class="dropdown__button">Время</button>
+                                    <ul class="dropdown__list">
+                                        <li class="dropdown__list-item" data-value="17.00">17.00</li>
+                                        <li class="dropdown__list-item" data-value="18.00">18.00</li>
+                                        <li class="dropdown__list-item" data-value="19.00">19.00</li>
+                                        <li class="dropdown__list-item" data-value="20.00">20.00</li>
+                                        <li class="dropdown__list-item" data-value="21.00">21.00</li>
+                                    </ul>
+                                    <input type="text" name="select-category" value="" class="dropdown__input-hidden">
+                                </div>
+                            </div>
+
+                            <button type="submit" class="button button__form-order">ОФОРМИТЬ ЗАКАЗ</button>
+                        </form>
+                    </div>
+                
+                    <div class="template__imege">
+                        <img src="img/order/order.jpg" alt="about-img">
+                        <div class="template__circle">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order__contacts">
+                    <p>Пн - Пт: 8 - 22, Сб - Вс: 9 - 23, Телефон: +38098 729 13 67 / +38097 458 78 79</p>
+                </div>
+            </div>
+        </section>
+        <section class="special-offers" id="special-offers">
+            <div class="container-slider">
+                <div class="special-offers__slider">
+                    <div class="owl-carousel owl-theme slide-one">
+                        <div class="slide">
+                            <div class="special-offers__title"> Спец-предложение</div>
+                            <div class="template__row">
+                                <div class="template__imege">
+                                    <img src="img/special-offers/special-offers-1.jpg" alt="special-offers-img">
+                                    <div class="template__circle">
+                                        <div class="circle"></div>
+                                    </div>
+                                </div>
+                                <div class="template__text">
+                                    <div class="template__heding">
+                                        <h2 class="title">GOLDEN EGG</h2>
+                                    </div>
+                                    <div class="template__line">
+                                        <div class="yellow-line"></div>
+                                    </div>
+                                    <div class="template__desc">
+                                        <div class="template__desc-top">
+                                            <p>
+                                                Невероятно красивый десерт Пирожное "Golden Egg". <br>
+                                                3D пирожное в форме яйца в гнёздышке. 
+                                            </p>
+                                        </div>
+                                        <div class="template__desc-bottom">
+                                            <p>
+                                                Узнать, каково золото на вкус, приглашаем в наш ресторан. 
+                                                Темный бельгийский шоколад, Амаретто, мусс мята-лемонграсс, 
+                                                центр морковь-маракуйя  — удержаться почти невозможно. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="special-offers__title"> Спец-предложение</div>
+                            <div class="template__row">
+                                <div class="template__imege">
+                                    <img src="img/special-offers/special-offers-2.jpg" alt="special-offers-img">
+                                    <div class="template__circle">
+                                        <div class="circle"></div>
+                                    </div>
+                                </div>
+                                <div class="template__text">
+                                    <div class="template__heding">
+                                        <h2 class="title">УТИННЫЕ ИСТОРИИ</h2>
+                                    </div>
+                                    <div class="template__line">
+                                        <div class="yellow-line"></div>
+                                    </div>
+                                    <div class="template__desc">
+                                        <div class="template__desc-top">
+                                            <p>
+                                                Утиные ножки здесь маринуют с травами, запекают, 
+                                                а потом тушат, пока мясо не приобретет нежную текстуру. 
+                                            </p>
+                                        </div>
+                                        <div class="template__desc-bottom">
+                                            <p>
+                                                К утке подают красную капусту, томлёную в красном вине, а также толчёный картофель 
+                                                со шкварками. Фермерскую утиную грудку обжаривают и подают с соусом демиглас и вишнёвым кули, 
+                                                а также с нежным картофельным гратеном, запечённым со сливками, тимьяном и сыром пармезан.  
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu" id="menu">
+            <div class="container">
+                <div class="menu__header">
+                    <div class="menu__title">
+                        <h2 class="title">НАШЕ МЕНЮ</h2>
+                    </div>
+                    <div class="menu__line">
                         <div class="yellow-line"></div>
                     </div>
-                    <div class="template__desc">
-                        <div class="template__desc-top">
-                            <p>
-                                Волшебная атмосфера, безукоризненное обслуживание, изысканный интерьер и, 
-                                самое главное, богатейший выбор вкуснейших блюд отменного 
-                                качества – именно эти характеристики привлекают гостей в наш ресторан
-                            </p>
-                        </div>
-                        <div class="template__desc-bottom">
-                            <p>
-                                Официанты этого заведения знают все тонкости приготовления блюд, 
-                                они подскажут гостям наиболее подходящие для них яства. 
-                                Тут хорошо знают постоянных клиентов, умело угождая их вкусам.
-                            </p>
-                            <p>
-                                Идеально дополняет ресторан уютная кофейня, находящаяся на первом этаже. 
-                                Чашечка изумительного кофе и сладости 
-                                от местного кондитера зарядят вас бодростью и позитивной энергией.
-                            </p>
-                        </div>
+                    <div class="menu__subtitle">
+                        <p>
+                            Предлагаем насладиться кухней от профессиональных поваров ресторана GOLDEN EGG! 
+                        </p>
                     </div>
                 </div>
-                <div class="template__imege">
-                    <img src="img/about/about-img.jpg" alt="about-img">
-                    <div class="template__circle">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="team" id="team">
-        <div class="container">
-            <div class="team__title">НАША КОМАНДА</div>
-            <div class="template__row">
-                <div class="template__imege">
-                    <img src="img/team/chef.jpg" alt="about-img">
-                    <div class="template__circle">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-                <div class="template__text">
-                    <div class="template__heding">
-                        <h2 class="title"> ШЕФ-ПОВАР</h2>
-                    </div>
-                    <div class="template__line">
-                        <div class="yellow-line"></div>
-                    </div>
-                    <div class="template__desc">
-                        <div class="template__desc-top">
-                            <p>
-                                За подбор продуктов и приготовление вкусных  блюд отвечает наш высококвалифицированный шеф-повар. 
-                                Блюда в его исполнении превращаются в настоящие шедевры. 
-                                Никто не останется равнодушным к такому непревзойденному сочетанию. 
-                            </p>
-                        </div>
-                        <div class="template__desc-bottom">
-                            <p>
-                                Своей работой мы хотим радовать каждого нашего посетителя. Мы гарантируем всем клиентам, что время, 
-                                проведенное в нашем заведении, будет отличаться особым теплом и изысканным вкусом.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> 
-    <section class="order" id="order">
-        <div class="container">
-            <div class="template__row">
-                <div class="template__text">
-                    <div class="template__heding">
-                        <h2 class="title">О РЕСТОРАНЕ</h2>
-                    </div>
-                    <div class="template__line">
-                        <div class="yellow-line"></div>
-                    </div>
-                    <form class="form-order">
-                        <div class="form-order__item">
-                            <input type="text" name="name" class="form-order__input" placeholder="Имя" required>
-                        </div>
-                        <div class="form-order__item">
-                            <input type="email" name="email" class="form-order__input" placeholder="Email" required>
-                        </div>
-                        <div class="form-order__item">
-                            <input type="tel" name="tel" class="form-order__input" placeholder="Телефон" required>
-                        </div>
-                        <div class="form-order__item">
-                            <div class="dropdown">
-                                <button type="button" class="dropdown__button">Кол-во людей</button>
-                                <ul class="dropdown__list">
-                                    <li class="dropdown__list-item" data-value="2">2</li>
-                                    <li class="dropdown__list-item" data-value="3">3</li>
-                                    <li class="dropdown__list-item" data-value="4">4</li>
-                                    <li class="dropdown__list-item" data-value="5">5</li>
-                                    <li class="dropdown__list-item" data-value="6">6</li>
-                                </ul>
-                                <input type="text" name="select-category" value="" class="dropdown__input-hidden">
-                            </div>
-                        </div>
-                        
-                        <div class="form-order__item">
-                            <input type="date" name="date" class="form-order__input" placeholder="Дата (дата/месяц)" required>
-                        </div>
+                <div class="tabs">
+                    <ul class="tab__menu tab">
+                        <li class="tab__menu-item tab--active" data-tab="tab-1">Закуски</li>
+                        <li class="tab__menu-item" data-tab="tab-2">Мясные блюда</li>
+                        <li class="tab__menu-item" data-tab="tab-3">Салаты</li>
+                        <li class="tab__menu-item" data-tab="tab-4">Десерты</li>
+                        <li class="tab__menu-item" data-tab="tab-5">Вина</li>
+                        <li class="tab__menu-item" data-tab="tab-6">Напитки</li>
+                    </ul>
+            
 
-                        <div class="form-order__item">
-                            <div class="dropdown">
-                                <button type="button" class="dropdown__button">Время</button>
-                                <ul class="dropdown__list">
-                                    <li class="dropdown__list-item" data-value="17.00">17.00</li>
-                                    <li class="dropdown__list-item" data-value="18.00">18.00</li>
-                                    <li class="dropdown__list-item" data-value="19.00">19.00</li>
-                                    <li class="dropdown__list-item" data-value="20.00">20.00</li>
-                                    <li class="dropdown__list-item" data-value="21.00">21.00</li>
-                                </ul>
-                                <input type="text" name="select-category" value="" class="dropdown__input-hidden">
-                            </div>
-                        </div>
-
-                        <button type="submit" class="button button__form-order">ОФОРМИТЬ ЗАКАЗ</button>
-                    </form>
-                </div>
-               
-                <div class="template__imege">
-                    <img src="img/order/order.jpg" alt="about-img">
-                    <div class="template__circle">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="order__contacts">
-                <p>Пн - Пт: 8 - 22, Сб - Вс: 9 - 23, Телефон: +38098 729 13 67 / +38097 458 78 79</p>
-            </div>
-        </div>
-    </section>
-    <section class="special-offers" id="special-offers">
-        <div class="container-slider">
-            <div class="special-offers__slider">
-                <div class="owl-carousel owl-theme slide-one">
-                    <div class="slide">
-                        <div class="special-offers__title"> Спец-предложение</div>
-                        <div class="template__row">
-                            <div class="template__imege">
-                                <img src="img/special-offers/special-offers-1.jpg" alt="special-offers-img">
-                                <div class="template__circle">
-                                    <div class="circle"></div>
-                                </div>
-                            </div>
-                            <div class="template__text">
-                                <div class="template__heding">
-                                    <h2 class="title">GOLDEN EGG</h2>
-                                </div>
-                                <div class="template__line">
-                                    <div class="yellow-line"></div>
-                                </div>
-                                <div class="template__desc">
-                                    <div class="template__desc-top">
-                                        <p>
-                                            Невероятно красивый десерт Пирожное "Golden Egg". <br>
-                                            3D пирожное в форме яйца в гнёздышке. 
-                                        </p>
+                    <div class="tab__menu-content menu" data-tab-content id="tab-1">
+                        <div class="owl-carousel owl-theme slide-two">
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/snacks/snacks-1.jpeg" alt="">
                                     </div>
-                                    <div class="template__desc-bottom">
-                                        <p>
-                                            Узнать, каково золото на вкус, приглашаем в наш ресторан. 
-                                            Темный бельгийский шоколад, Амаретто, мусс мята-лемонграсс, 
-                                            центр морковь-маракуйя  — удержаться почти невозможно. 
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="special-offers__title"> Спец-предложение</div>
-                        <div class="template__row">
-                            <div class="template__imege">
-                                <img src="img/special-offers/special-offers-2.jpg" alt="special-offers-img">
-                                <div class="template__circle">
-                                    <div class="circle"></div>
-                                </div>
-                            </div>
-                            <div class="template__text">
-                                <div class="template__heding">
-                                    <h2 class="title">УТИННЫЕ ИСТОРИИ</h2>
-                                </div>
-                                <div class="template__line">
-                                    <div class="yellow-line"></div>
-                                </div>
-                                <div class="template__desc">
-                                    <div class="template__desc-top">
-                                        <p>
-                                            Утиные ножки здесь маринуют с травами, запекают, 
-                                            а потом тушат, пока мясо не приобретет нежную текстуру. 
-                                        </p>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/snacks/snacks-2.jpeg" alt="">
                                     </div>
-                                    <div class="template__desc-bottom">
-                                        <p>
-                                            К утке подают красную капусту, томлёную в красном вине, а также толчёный картофель 
-                                            со шкварками. Фермерскую утиную грудку обжаривают и подают с соусом демиглас и вишнёвым кули, 
-                                            а также с нежным картофельным гратеном, запечённым со сливками, тимьяном и сыром пармезан.  
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/snacks/snacks-3.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/snacks/snacks-4.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="menu" id="menu">
-        <div class="container">
-            <div class="menu__header">
-                <div class="menu__title">
-                    <h2 class="title">НАШЕ МЕНЮ</h2>
-                </div>
-                <div class="menu__line">
-                    <div class="yellow-line"></div>
-                </div>
-                <div class="menu__subtitle">
-                    <p>
-                        Предлагаем насладиться кухней от профессиональных поваров ресторана GOLDEN EGG! 
-                    </p>
-                </div>
-            </div>
-            <div class="tabs">
-                <ul class="tab__menu tab">
-                    <li class="tab__menu-item tab--active" data-tab="tab-1">Закуски</li>
-                    <li class="tab__menu-item" data-tab="tab-2">Мясные блюда</li>
-                    <li class="tab__menu-item" data-tab="tab-3">Салаты</li>
-                    <li class="tab__menu-item" data-tab="tab-4">Десерты</li>
-                    <li class="tab__menu-item" data-tab="tab-5">Вина</li>
-                    <li class="tab__menu-item" data-tab="tab-6">Напитки</li>
-                </ul>
-        
-
-                <div class="tab__menu-content menu" data-tab-content id="tab-1">
-                    <div class="owl-carousel owl-theme slide-two">
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/snacks/snacks-1.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/snacks/snacks-1.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/snacks/snacks-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/snacks/snacks-2.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/snacks/snacks-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/snacks/snacks-3.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/snacks/snacks-4.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/snacks/snacks-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/snacks/snacks-1.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/snacks/snacks-1.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/snacks/snacks-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/snacks/snacks-2.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/snacks/snacks-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/snacks/snacks-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/snacks/snacks-3.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/snacks/snacks-1.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/snacks/snacks-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/snacks/snacks-4.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/snacks/snacks-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/snacks/snacks-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="tab__menu-content menu hide" data-tab-content id="tab-2">
-                    <div class="owl-carousel owl-theme slide-two">
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/meat/meat-1.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                    <div class="tab__menu-content menu hide" data-tab-content id="tab-2">
+                        <div class="owl-carousel owl-theme slide-two">
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/meat/meat-1.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/meat/meat-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/meat/meat-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/meat/meat-2.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/meat/meat-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/meat/meat-1.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/meat/meat-3.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/meat/meat-4.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/meat/meat-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/meat/meat-1.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/meat/meat-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/meat/meat-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/meat/meat-2.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/meat/meat-1.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/meat/meat-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/meat/meat-3.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/meat/meat-4.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/meat/meat-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/meat/meat-1.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/meat/meat-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab__menu-content menu hide" data-tab-content id="tab-3">
-                    <div class="owl-carousel owl-theme slide-two">
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/salads/salad-1.png" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/meat/meat-2.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/salads/salad-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/meat/meat-3.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/salads/salad-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/salads/salad-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/meat/meat-4.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/salads/salad-1.png" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/salads/salad-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/salads/salad-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/salads/salad-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/salads/salad-1.png" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/salads/salad-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/salads/salad-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/salads/salad-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="tab__menu-content menu hide" data-tab-content id="tab-4">
-                    <div class="owl-carousel owl-theme slide-two">
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/desserts/desserts-1.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                    <div class="tab__menu-content menu hide" data-tab-content id="tab-3">
+                        <div class="owl-carousel owl-theme slide-two">
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/salads/salad-1.png" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/desserts/desserts-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/desserts/desserts-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/salads/salad-2.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/desserts/desserts-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/desserts/desserts-1.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/salads/salad-3.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/salads/salad-4.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/desserts/desserts-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/salads/salad-1.png" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/desserts/desserts-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/desserts/desserts-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/salads/salad-2.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/desserts/desserts-1.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/desserts/desserts-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/salads/salad-3.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/salads/salad-4.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/desserts/desserts-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/salads/salad-1.png" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/desserts/desserts-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название блюда</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                     </div>
-                </div>
-                <div class="tab__menu-content menu hide" data-tab-content id="tab-5">
-                    <div class="owl-carousel owl-theme slide-two">
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/wine/wine.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название вина</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/salads/salad-2.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/wine/wine.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название вина</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/salads/salad-3.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/wine/wine.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название вина</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/wine/wine.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название вина</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/salads/salad-4.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/wine/wine.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название вина</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/wine/wine.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название вина</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/wine/wine.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название вина</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/wine/wine.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название вина</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/wine/wine.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название вина</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/wine/wine.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название вина</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/wine/wine.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название вина</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/wine/wine.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название вина</p>
-                                        <span>100,00 руб</span>
-                                    </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="tab__menu-content menu hide" data-tab-content id="tab-6">
-                    <div class="owl-carousel owl-theme slide-two">
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/drink/drink-1.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название напитка</p>
-                                        <span>100,00 руб</span>
+                    <div class="tab__menu-content menu hide" data-tab-content id="tab-4">
+                        <div class="owl-carousel owl-theme slide-two">
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/desserts/desserts-1.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/desserts/desserts-2.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/desserts/desserts-3.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/desserts/desserts-4.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/drink/drink-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название напитка</p>
-                                        <span>100,00 руб</span>
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/desserts/desserts-1.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/desserts/desserts-2.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/desserts/desserts-3.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/desserts/desserts-4.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/drink/drink-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название напитка</p>
-                                        <span>100,00 руб</span>
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/desserts/desserts-1.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/drink/drink-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название напитка</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/desserts/desserts-2.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/desserts/desserts-3.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/desserts/desserts-4.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название блюда</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/drink/drink-1.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название напитка</p>
-                                        <span>100,00 руб</span>
+                    </div>
+                    <div class="tab__menu-content menu hide" data-tab-content id="tab-5">
+                        <div class="owl-carousel owl-theme slide-two">
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/wine/wine.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название вина</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/wine/wine.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название вина</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/wine/wine.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название вина</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/wine/wine.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название вина</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/drink/drink-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название напитка</p>
-                                        <span>100,00 руб</span>
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/wine/wine.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название вина</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/wine/wine.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название вина</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/wine/wine.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название вина</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/wine/wine.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название вина</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/drink/drink-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название напитка</p>
-                                        <span>100,00 руб</span>
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/wine/wine.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название вина</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/drink/drink-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название напитка</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/wine/wine.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название вина</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/wine/wine.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название вина</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/wine/wine.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название вина</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="menu__row">
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/drink/drink-1.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название напитка</p>
-                                        <span>100,00 руб</span>
+                    </div>
+                    <div class="tab__menu-content menu hide" data-tab-content id="tab-6">
+                        <div class="owl-carousel owl-theme slide-two">
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/drink/drink-1.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название напитка</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/drink/drink-2.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название напитка</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/drink/drink-3.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название напитка</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/drink/drink-4.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название напитка</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/drink/drink-2.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название напитка</p>
-                                        <span>100,00 руб</span>
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/drink/drink-1.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название напитка</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/drink/drink-2.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название напитка</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/drink/drink-3.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название напитка</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/drink/drink-4.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название напитка</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/drink/drink-3.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название напитка</p>
-                                        <span>100,00 руб</span>
+                            <div class="menu__row">
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/drink/drink-1.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название напитка</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__row-item">
-                                <div class="menu__row-item-img">
-                                    <img src="img/menu/drink/drink-4.jpeg" alt="">
-                                </div>
-                                <div class="menu__row-item-info">
-                                    <div class="menu__row-item-heding">
-                                        <p>Название напитка</p>
-                                        <span>100,00 руб</span>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/drink/drink-2.jpeg" alt="">
                                     </div>
-                                    <div class="menu__row-item-desc">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
-                                        </p>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название напитка</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/drink/drink-3.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название напитка</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu__row-item">
+                                    <div class="menu__row-item-img">
+                                        <img src="img/menu/drink/drink-4.jpeg" alt="">
+                                    </div>
+                                    <div class="menu__row-item-info">
+                                        <div class="menu__row-item-heding">
+                                            <p>Название напитка</p>
+                                            <span>100,00 руб</span>
+                                        </div>
+                                        <div class="menu__row-item-desc">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Assumenda soluta nobis sed optio vel, consequatur quam doloremque aspernatur consectetur adipisicing elit.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1594,10 +1596,36 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-
+        </section>
+        <section class="events" id="events">
+            <div class="container">
+                <div class="events__title">частные мероприятия</div>
+                <div class="events__row">
+                    <div class="events__left">
+                        <div class="events__content events__content-left">
+                            <img src="img/events/events-1.jpg" alt="event-img">            
+                            <p>свадебный банкет</p>
+                            <div class="template__circle">
+                                <div class="circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="events__right">
+                        <div class="events__content events__content-right">         
+                            <p>корпоративные вечеринки</p>
+                            <img src="img/events/events-2.jpg" alt="event-img">   
+                            <div class="template__circle">
+                                <div class="circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="events__call">
+                    <p>По вопросам частных мероприятий звоните: +38098 729 13 67/+38097 458 78 79  или используйте контактную форму.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

@@ -610,4 +610,78 @@ body {
   background: #E8C300;
 }
 
+.events {
+  padding: 50px 0;
+  color: #FFFFFF;
+  background: url(../img/events/events-bg.jpg) center/cover;
+  background-repeat: no-repeat;
+}
+
+.events__title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.events__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 80px;
+}
+
+.events__content {
+  position: relative;
+  width: 475px;
+  height: 475px;
+}
+.events__content img {
+  width: 100%;
+  height: 100%;
+}
+.events__content p {
+  width: 80px;
+  height: 475px;
+  display: flex;
+  align-items: center;
+  writing-mode: vertical-lr;
+  font-family: "Kurale", serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.5;
+  text-indent: 20px;
+  text-transform: uppercase;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+}
+
+.events__content-left p {
+  transform: rotate(360deg);
+  right: 0;
+}
+.events__content-left .template__circle {
+  left: -125px;
+}
+
+.events__content-right p {
+  transform: rotate(180deg);
+  left: 0;
+}
+.events__content-right .template__circle {
+  right: -125px;
+}
+
+.events__call {
+  margin-top: 50px;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 /*# sourceMappingURL=main.css.map */
