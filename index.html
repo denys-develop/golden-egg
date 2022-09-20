@@ -25,8 +25,8 @@
                     </div>
                     <ul class="header-nav__menu">
                         <li><a class="header-nav__menu-link" href="#menu">МЕНЮ</a></li>
-                        <li><a class="header-nav__menu-link" href="#!">МЕРОПРИЯТИЯ</a></li>
-                        <li><a class="header-nav__menu-link" href="#!">КОНТАКТЫ</a></li>
+                        <li><a class="header-nav__menu-link" href="#events">МЕРОПРИЯТИЯ</a></li>
+                        <li><a class="header-nav__menu-link" href="#contacts">КОНТАКТЫ</a></li>
                     </ul>
                 </div>
             </div>
@@ -1625,8 +1625,56 @@
                 </div>
             </div>
         </section>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="contacts__header">
+                    <div class="contacts__title">
+                        <h2 class="title">Контакты</h2>
+                    </div>
+                    <div class="contacts__line">
+                        <div class="yellow-line"></div>
+                    </div>
+                    <div class="contacts__subtitle">
+                        <p>
+                            Вы можете оставить нам сообщение через форму ниже, или любым другим, удобным вам способом 
+                        </p>
+                    </div>
+                </div>
+                <div class="contacts__form">
+                    <form class="form-contacts">
+                        <div class="form-contacts__item">
+                            <input type="text" name="name" class="form-contacts__input" placeholder="Имя" required>
+                        </div>
+                        <div class="form-contacts__item">
+                            <input type="email" name="email" class="form-contacts__input" placeholder="Email" required>
+                        </div>
+                        <div class="form-contacts__item">
+                            <input type="tel" name="tel" class="form-contacts__input" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-contacts__item">
+                            <textarea name="messege" class="form-contacts__messege" placeholder="Сообщение" required></textarea>
+                        </div>
+                        <div class="form-contacts__item-contact">
+                            <div class="form-contacts__location">
+                                <img src="img/contacts/location.svg" alt="location">
+                                <p>пр-т. Победы, 105, Москва</p>
+                            </div>
+                            <div class="form-contacts__tell">
+                                <img src="img/contacts/tell.svg" alt="tell">
+                                <a href="tell:+79897291367">+7 989 729 13 67 </a>
+                            </div>
+                            <div class="form-contacts__mail">
+                                <img src="img/contacts/mail.svg" alt="mail">
+                                <a href="mailto:info@goldenegg.com">info@goldenegg.com</a>
+                            </div>
+                        </div>
+                        <button type="submit" class="button button__form-contacts">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
-
+ 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

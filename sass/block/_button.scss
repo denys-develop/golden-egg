@@ -40,6 +40,14 @@
         }
     }
 
+    &__form-contacts {
+        width: 585px;
+
+        &:hover {
+            background-color: rgb(229, 164, 79);
+        }
+    }
+
     &:active {
         transform: translateY(1px);
     }

@@ -1,0 +1,28 @@
+.contacts {
+    padding: 50px 0 90px;
+}
+
+.contacts__header {
+    margin-bottom: 39px;
+}
+
+.contacts__title {
+    margin-bottom: 14px;
+}
+
+.contacts__line {
+    margin-bottom: 40px;
+}
+
+.contacts__subtitle {
+    max-width: 515px;
+    margin: 0 auto;
+    text-align: center;
+    
+    p {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.56;
+        color: $black;
+    }
+}
