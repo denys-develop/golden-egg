@@ -101,3 +101,22 @@ $(document).ready(function(){
         items: 1
     });
 });
+
+
+// Anchors
+const anchor = document.querySelectorAll(".header-nav__menu-link");
+console.log(anchor);
+
+anchor.forEach(anc => {
+    anc.addEventListener("click", function(event){
+        event.preventDefault();
+
+        const id = anc.getAttribute("href");
+        const elem = document.querySelector(id);
+
+        window.scroll({
+            top: elem.offsetTop,
+            behavior: 'smooth'
+        });
+    });
+});  
