@@ -30,6 +30,11 @@ body {
   margin: 0 auto;
 }
 
+.container-map {
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
 .title {
   font-family: "Kurale", serif;
   font-weight: 400;
@@ -768,6 +773,22 @@ body {
 }
 .form-contacts__location a:hover, .form-contacts__tell a:hover, .form-contacts__mail a:hover {
   color: #E8C300;
+}
+
+.map {
+  min-height: 475px;
+}
+
+.footer {
+  padding: 15px 0;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.footer__copy p {
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /*# sourceMappingURL=main.css.map */

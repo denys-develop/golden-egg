@@ -34,6 +34,11 @@ body {
     margin: 0 auto;
 }
 
+.container-map {
+    max-width: $containerMap;
+    margin: 0 auto;
+}
+
 .title {
     font-family: $font2;
     font-weight: 400;
